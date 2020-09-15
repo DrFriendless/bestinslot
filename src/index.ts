@@ -9,7 +9,7 @@ function main(): void {
     const lib = libraryForClass(clazz);
     let generation = randomLoadouts(GEN_SIZE, clazz, lib);
     for (let gen=0; gen<EVOLUTIONS; gen++) {
-        scoreMany(generation, scoreForLomm, 1.7);
+        scoreMany(generation, scoreForLomm, 1.9);
         generation = sortGeneration(generation);
         generation = uniq(generation.slice(0, GEN_SIZE/2));
         const uniques = generation.length;

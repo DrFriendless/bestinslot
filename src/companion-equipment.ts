@@ -48,6 +48,13 @@ const chainedGrimore: Item = {
     enchantmentSlots: ["companion-defense", "companion-defense"],
     combinedRating: 1010
 }
+const goldLeafedGrimore: Item = {
+    slot: "companion-equipment",
+    name: "Gold-leafed Grimoire of the Companion",
+    stats: { combAdv: 12120 },
+    enchantmentSlots: ["companion-offense", "companion-offense"],
+    combinedRating: 1010
+}
 const platinumCasedGrimore: Item = {
     slot: "companion-equipment",
     name: "Platinum-cased Grimoire of the Companion",
@@ -87,4 +94,4 @@ const torchedRing: Item = {
 }
 
 export const ALL_COMPANION_EQUIPMENT = [ platinumIcon, scorchedBelt, ivyGrimore, torchedRing, steelCappedSwordKnot, goldSwordKnot,
-    platinumCasedGrimore, chainedGrimore, goldTalisman];
+    platinumCasedGrimore, chainedGrimore, goldTalisman, goldLeafedGrimore];

@@ -42,7 +42,7 @@ const trobriandsRing: Item = {
     name: "Trobriand's Ring",
     combinedRating: 0,
     enchantmentSlots: [],
-    stats: { power: 2780, defense: 1390, critAvoid: 1390 }
+    stats: { power: 3000, defense: 1500, critAvoid: 1500 }
 }
 
 export const ALL_ARTIFACTS = [ engineMasterMantle, whipOfTheErinyes, staffOfFlowers, bookOfVileDarkness, halastersBlastSceptre,
